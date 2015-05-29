@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="libs">
+      <UniqueIdentifier>{255c01c3-58d6-470c-985a-9b87de5a06b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\system">
+      <UniqueIdentifier>{81ed108b-be48-4dad-8ef9-be27eaa82d4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\system\src">
+      <UniqueIdentifier>{00049b4e-bc6b-4e88-8839-397bd8a31f44}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="boost.gyp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="libs\system\src\error_code.cpp">
+      <Filter>libs\system\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
